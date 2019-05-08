@@ -1,0 +1,33 @@
+{
+  "name": "jest-data-mate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "command-exists": "^1.2.8",
+    "ioredis": "^4.9.3"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.0.0",
+    "@types/jest": "^24.0.12",
+    "jest": "^24.7.1",
+    "mongodb": "^3.2.3",
+    "redis-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowerchaton/jest-data-mate.git"
+  },
+  "author": "flowerchaton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowerchaton/jest-data-mate/issues"
+  },
+  "homepage": "https://github.com/flowerchaton/jest-data-mate#readme"
+}
